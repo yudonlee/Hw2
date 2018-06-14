@@ -16,15 +16,15 @@ void comF(char *a,int l,char *b,int n){
     }
     if(count!=6){
         for(int i=0;i<6;i++){
-        if(*(a+i) == *(b+i))
+        if(*(a+i) == *(b+i)){
             printf("%d",i+1);
             if(count>1){
             printf(",");
             count--;
             }
         }
-        
-    }
+  
+        }    }
     else{
         printf("0");
     }
